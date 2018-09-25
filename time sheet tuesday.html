@@ -22,9 +22,36 @@
         </p>
     </div>
     <div class="container">
-        <div class="row">
 
-            <!-- Sign-Up Card-->
+
+        <div class="table-responsive">
+  <table class="table">
+	<thead>
+		<tr>
+			<th>Employee Name</th>
+			<th>Role</th>
+			<th>Start Date</th>
+            <th>Months Worked</th>
+            <th>Monthly Rate</th>
+            <th>Total Billed</th>
+		</tr>
+	</thead>
+	<tbody>
+		<tr>
+			<td scope="row"></td>
+			<td></td>
+			<td></td>
+		</tr>
+		<tr>
+			<td scope="row"></td>
+			<td></td>
+			<td></td>
+		</tr>
+	</tbody>
+</table>
+</div>
+
+                <div class="row">
             <div class="col-lg-10">
                 <div class="card card-default">
                     <div class="card-header">
@@ -35,19 +62,19 @@
                         <!-- Sign-up Form (note the various input "types")-->
                         <form role="form">
                             <div class="form-group row">
-                                <label for="name-input">Name:</label>
+                                <label for="name-input">Employee Name:</label>
                                 <input class="form-control" id="name-input" type="text">
                             </div>
                             <div class="form-group row">
-                                <label for="email-input">Email:</label>
+                                <label for="email-input">Role:</label>
                                 <input class="form-control" id="email-input" type="email">
                             </div>
                             <div class="form-group row">
-                                <label for="age-input">Age:</label>
+                                <label for="age-input">Start Date (MM/DD/YYYY):</label>
                                 <input class="form-control" id="age-input" type="number">
                             </div>
                             <div class="form-group row">
-                                <label for="comment-input">How did you hear about us?</label>
+                                <label for="comment-input">Monthly Rate:</label>
                                 <textarea class="form-control" id="comment-input" rows="5"></textarea>
                             </div>
                             <button class="btn btn-default" id="add-user" type="submit">Submit</button>
@@ -58,18 +85,7 @@
 
         </div>
         </div>
-        <div class="col-lg-6">
-            <div class="card card-default">
-                <div class="card-header">
-                    Most Recent Member
-                </div>
-                <div class="card-body" id="recent-member">
-                    <h2 id="name-display">Jimmy John</h2>
-                    <h4 id="email-display">Email: jimmy@john.edu</h4>
-                    <h4 id="age-display">Age: 27</h4>
-                    <p id="comment-display">I'm signing up, because I want to spread sandwiches to the world.</p>
-                </div>
-            </div>
+
 
             <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
             <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js"></script>
